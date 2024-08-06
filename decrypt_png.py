@@ -24,7 +24,8 @@ def decrypt_file(input_file, output_file, key, iv):
 key = b'16bytekey1234567'  # 16 bytes for AES-128
 iv = b'16byteiv12345678'  # 16 bytes for AES-CBC
 
-input_file = '/home/x1869/Documents/GitHub/desktop-tutorial/encrypted_file.xpng'
-output_file = '/home/x1869/Documents/GitHub/desktop-tutorial/decrypted_output.png'
+input_file = 'encrypted.xpng'
+output_file = 'decrypted_output.png'
+
 
 decrypt_file(input_file, output_file, key, iv)
